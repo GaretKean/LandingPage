@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar.jsx';
 import Jumbotron from './Jumbotron.jsx';
 import Card from './Card.jsx';
+import Footer from './Footer.jsx';
 
 const Home = () => {
     return (
@@ -23,7 +24,9 @@ const Home = () => {
                         <Card title="Card 4" text="Description for card 4" link="#"/>
                     </div>
                 </div>
+                
             </div>
+            <Footer />
         </div>
     );
 };
